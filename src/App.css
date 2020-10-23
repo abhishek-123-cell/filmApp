@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200&display=swap');
+.titleBar {
+  background-color: #000;
+  display: block;
+  color: #fff;
+  padding-left: 16px
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+input{
+  color: darkred;
+}
+header{
+  height: 20vh;
+  width: 100vw;
+  background-image: url(https://images2.alphacoders.com/589/thumb-350-589553.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+  @keyframes rotate {
+    from{
+      transform: rotateX(30deg);
+    }
+    to{
+      transform: rotateX(90deg);
+
+    }
+  }
+  .head{
+    animation: rotate 0.5s  infinite  ease-in-out;
+
+  }
+
+.flex{
+  display: inline-flex;
+}
+.header img{
+  height: 30vh;
+  width: 100vw;
+background-color: deeppink;
+}
+.head{
+  /* animation: rotate 0.5s  infinite  ease-in-out; */
+  color: greenyellow;
+  background: radial-gradient(red,blue);
+  font-family: 'Turret Road', cursive;
+  
+}
